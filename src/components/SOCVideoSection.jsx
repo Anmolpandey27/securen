@@ -173,7 +173,7 @@ const SOCVideoSection = () => {
           <div className="relative flex justify-center w-full max-w-3xl z-20">
             <div className="relative rounded-2xl overflow-hidden border border-slate-700 shadow-2xl shadow-green-500/10">
               <video
-                src="/videos/SOC-1.mp4"
+                src="./videos/SOC-1.mp4"
                 autoPlay
                 loop
                 muted

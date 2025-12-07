@@ -34,18 +34,18 @@ const fadeIn = (direction = "up", delay = 0) => {
 
 const Home = ({ navigate }) => {
   const trustedTools = [
-    { src: "/images/wazuh.png", name: "Wazuh" },
-    { src: "/images/elasticsearch.jpg", name: "Elasticsearch" },
-    { src: "/images/suricata.jpg", name: "Suricata" },
-    { src: "/images/osquery.png", name: "Osquery" },
-    { src: "/images/openvas.png", name: "OpenVAS" },
-    { src: "/images/zeek.png", name: "Zeek" },
-    { src: "/images/graylog.jpg", name: "Graylog" },
-    { src: "/images/TheHive.jpeg", name: "TheHive" },
-    { src: "/images/Misp.png", name: "MISP" },
-    { src: "/images/nxlog.png", name: "nxlog" },
-    { src: "/images/shuffle.png", name: "Shuffle" },
-    { src: "/images/iris_blackDark.png", name: "DFIR-IRIS" },
+    { src: "./images/wazuh.png", name: "Wazuh" },
+    { src: "./images/elasticsearch.jpg", name: "Elasticsearch" },
+    { src: "./images/suricata.jpg", name: "Suricata" },
+    { src: "./images/osquery.png", name: "Osquery" },
+    { src: "./images/openvas.png", name: "OpenVAS" },
+    { src: "./images/zeek.png", name: "Zeek" },
+    { src: "./images/graylog.jpg", name: "Graylog" },
+    { src: "./images/TheHive.jpeg", name: "TheHive" },
+    { src: "./images/Misp.png", name: "MISP" },
+    { src: "./images/nxlog.png", name: "nxlog" },
+    { src: "./images/shuffle.png", name: "Shuffle" },
+    { src: "./images/iris_blackDark.png", name: "DFIR-IRIS" },
   ];
 
   return (
