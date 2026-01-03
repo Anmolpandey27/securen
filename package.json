@@ -1,11 +1,14 @@
 {
   "name": "securen-security-website",
   "version": "1.0.0",
+  "homepage": "https://securen.tech",
   "description": "Security services website for secureN using React and Tailwind CSS.",
   "main": "src/index.jsx",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
